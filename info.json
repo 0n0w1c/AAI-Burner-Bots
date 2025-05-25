@@ -1,0 +1,14 @@
+{
+    "name": "AAI-Burner-Bots",
+    "version": "0.0.1",
+    "title": "AAI Burner Bots",
+    "author": "0n0w1c",
+    "factorio_version": "2.0",
+    "homepage": "",
+    "description": "Mod pack to add personal burner construction robots to AAI Industry",
+    "dependencies": [
+        "base >= 2.0",
+        "aai-industry",
+        "copper-construction-robots"
+    ]
+}
