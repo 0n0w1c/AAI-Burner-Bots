@@ -12,8 +12,7 @@ end
 local recipe = {}
 recipe = data.raw["recipe"]["early-construction-robot"]
 if recipe then
-    replace_ingredient(recipe.name, "iron-gear-wheel",
-        { type = "item", name = "electric-motor", amount = 8 })
+    replace_ingredient(recipe.name, "iron-gear-wheel", { type = "item", name = "electric-motor", amount = 8 })
     if mods["quality"] then recycling.generate_recycling_recipe(recipe) end
 end
 
