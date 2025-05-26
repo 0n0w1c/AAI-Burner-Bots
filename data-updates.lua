@@ -40,3 +40,9 @@ if recipe then
         { type = "item", name = "early-personal-roboport-equipment", amount = 1 })
     if mods["quality"] then recycling.generate_recycling_recipe(recipe) end
 end
+
+recipe = data.raw["recipe"]["fission-reactor-equipment"]
+if recipe then
+    add_ingredient(recipe.name, { type = "item", name = "burner-generator-equipment", amount = 1 })
+    if mods["quality"] then recycling.generate_recycling_recipe(recipe) end
+end

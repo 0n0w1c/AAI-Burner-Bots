@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 26.05.2025
+  Bugfixes:
+    - None
+  Changes:
+    - Added a personal burner generator as an ingredient to the personal fission reactor recipe
+---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 25.05.2025
   Bugfixes:
