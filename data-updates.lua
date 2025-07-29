@@ -6,7 +6,7 @@ if mods["quality"] then recycling = require("__quality__/prototypes/recycling") 
 local technology = {}
 technology = data.raw["technology"]["early-personal-roboport-equipment"]
 if technology then
-    technology.prerequisites = { "electricity" }
+    technology.prerequisites = { "electricity", "electronics" }
 end
 
 local recipe = {}

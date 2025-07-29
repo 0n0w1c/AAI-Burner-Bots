@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 28.07.2025
+  Bugfixes:
+    - None
+  Changes:
+    - Changed the Copper personal roboport technology prerequisite from Electricity to Electronics
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 26.05.2025
   Bugfixes:
